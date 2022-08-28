@@ -1,0 +1,90 @@
+body{
+  font-family: 'Maven Pro';font-size: 20px;
+  display: flexbox;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a{
+    color: rgba(10, 7, 136, 1);
+    position: relative;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    color:  rgba(10, 7, 136, 1);
+  }
+  nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background:  rgba(10, 7, 136, 1);
+    transition: .3s;
+    bottom: 0;
+  }
+  nav ul li a:hover:after{
+    width: 100%;
+  }
+  .nav-link{
+    color: rgba(10, 7, 136, 1);
+    margin: 0px 0px 0px 20px;
+  }
+  .btn{
+    border: 2px solid rgba(10, 7, 136, 1);
+    color:rgba(10, 7, 136, 1) ;
+  }
+  .btn:hover{
+    background-color:rgba(10, 7, 136, 1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  #design-btn{
+    background-color:rgba(26, 30, 117, 1);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  #design-btn:hover{
+    background-color:white;
+    color:rgba(10, 7, 136, 1);
+    border: 1px solid white;
+    border-radius: 5px;
+
+  }
+  .hero-page{
+    background-color: rgba(12, 35, 72, 1);
+    color: rgba(224, 214, 214, 1);
+    padding: 5%;
+  }
+  .card-image img{
+    width: 20%;
+    height: 20%;
+    float: right;
+    position:relative;
+    
+  }
+  .hero-text{
+    column-count: 4;
+    margin: 40px;
+  }
+  hr{
+    width: 20px;
+    color:rgba(255, 163, 35, 1) ;
+  }
+  .Use-intructions {
+    margin: 0 auto;   
+    padding:50px;
+    
+  }
+ .Use-intructions ul li{
+list-style: url(/CardXpress/img/Polygon_4-removebg-preview.png) ; 
+margin: 0 auto;
+
+ }
+ 
+  
